@@ -1,0 +1,5 @@
+E:\ASP.NET\P4\MyArith\bin\Debug\MyArith.dll
+E:\ASP.NET\P4\MyArith\bin\Debug\MyArith.pdb
+E:\ASP.NET\P4\MyArith\obj\Debug\ResolveAssemblyReference.cache
+E:\ASP.NET\P4\MyArith\obj\Debug\MyArith.dll
+E:\ASP.NET\P4\MyArith\obj\Debug\MyArith.pdb
