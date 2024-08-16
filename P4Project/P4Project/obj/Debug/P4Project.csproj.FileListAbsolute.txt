@@ -1,0 +1,5 @@
+E:\University\Practice\ASP.NET\P4Project\P4Project\obj\Debug\ResolveAssemblyReference.cache
+E:\University\Practice\ASP.NET\P4Project\P4Project\bin\Debug\P4Project.dll
+E:\University\Practice\ASP.NET\P4Project\P4Project\bin\Debug\P4Project.pdb
+E:\University\Practice\ASP.NET\P4Project\P4Project\obj\Debug\P4Project.dll
+E:\University\Practice\ASP.NET\P4Project\P4Project\obj\Debug\P4Project.pdb
