@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>first.png</ImageUrl>
+    <NavigateUrl>https://google.com</NavigateUrl>
+    <AlternateText>Welcome to google website</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Search Engine</Keyword>
+  </Ad>
+
+
+  <Ad>
+    <ImageUrl>second.png</ImageUrl>
+    <NaviagateUrl>https://www.facebook.com</NaviagateUrl>
+    <AlternateText>WElcome to faceook</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>social media</Keyword>
+  </Ad>
+</Advertisements>
