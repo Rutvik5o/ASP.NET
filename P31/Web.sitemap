@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="GUJARAT UNIVERSITY"  description="">
+        <siteMapNode url="about.aspx" title="Home Page"  description="This is home page" />
+        <siteMapNode url="" title="Syllabus"  description="" >
+            <siteMapNode url="bca.aspx" title="BCA"  description="This is BCA Syllabus Page" />
+            <siteMapNode url="bba.aspx" title="BBA"  description="This is BBA Syllabus Page" />
+            <siteMapNode url="bcom.aspx" title="BCOM"  description="This is BCOM Syllabus Page" />
+    </siteMapNode>
+      <siteMapNode url="" title="Colleges"  description="">
+          <siteMapNode url="pica.aspx" title="President Institute of Computer Application"  description="This is PICA" />
+      </siteMapNode>
+   </siteMapNode>
+</siteMap>

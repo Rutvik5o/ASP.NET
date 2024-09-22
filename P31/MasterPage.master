@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 374px;
+        }
+        .style3
+        {
+            height: 224px;
+        }
+        .style4
+        {
+            width: 374px;
+            height: 287px;
+        }
+        .style5
+        {
+            height: 287px;
+        }
+        .style6
+        {
+            height: 104px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    </div>
+    <table style="width:100%; height: 663px; margin-bottom: 0px;">
+        <tr>
+            <td class="style4">
+                <asp:Image ID="Image1" runat="server" Height="341px" 
+                    ImageUrl="~/a562cbc335fbf3547eac4553245437bb.jpg" Width="366px" />
+            </td>
+            <td class="style5" align="center" bgcolor="#F6A37B">
+                <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" 
+                    Text="GUJARAT UNIVERSITY"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td class="style1" bgcolor="#FF99CB" rowspan="2">
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
+                </asp:TreeView>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </td>
+            <td class="style6">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td class="style3" align="right" bgcolor="#CC3300">
+                <asp:Label ID="Label2" runat="server" Text="Copyright  Warning"></asp:Label>
+            </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
