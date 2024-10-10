@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 347px;
+        }
+        .style3
+        {
+            width: 347px;
+            height: 274px;
+        }
+        .style4
+        {
+            height: 274px;
+        }
+        .style5
+        {
+            height: 161px;
+        }
+        .style6
+        {
+            height: 29px;
+        }
+        .style7
+        {
+            width: 346px;
+            height: 23px;
+        }
+        .style8
+        {
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="style1">
+            <tr>
+                <td class="style3">
+                    <asp:Image ID="Image1" runat="server" Height="307px" ImageUrl="~/GU.png" 
+                        Width="295px" />
+                </td>
+                <td align="center" bgcolor="#CC66FF" class="style4">
+                    <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" 
+                        Text="Gujarat University"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#6699FF" class="style2" rowspan="2">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" 
+                        Height="235px" Width="159px">
+                    </asp:TreeView>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td class="style6">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style5">
+                </td>
+            </tr>
+        </table>
+        <table class="style1">
+            <tr>
+                <td class="style7">
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1">
+                    </asp:Menu>
+                </td>
+                <td align="right" bgcolor="#CC0099" class="style8">
+                    <asp:Label ID="Label2" runat="server" Text="Copyright Warning!!"></asp:Label>
+                </td>
+            </tr>
+        </table>
+        <br />
+    </div>
+    </form>
+</body>
+</html>
